@@ -1,0 +1,58 @@
+body {
+    background-image: url(images/background.avif);
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container {
+    background: whitesmoke;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+}
+
+.box {
+    background: red;
+    max-width: 100%;
+    border: 5px solid green;
+    border-radius: 10px;
+    font: bold;
+    font-size: large;
+    position: sticky;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: black;
+}
+
+#save-btn {
+    background-color: darkblue;
+}
+
+#refresh-btn {
+    background-color: aqua;
+}
